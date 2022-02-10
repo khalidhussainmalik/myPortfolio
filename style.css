@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 :root {
-  --yellow: #f9ca24;
+  --yellow: #fcd755;
+
+  --shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 * {
@@ -49,6 +55,7 @@ section {
   margin-top: 1rem;
   font-size: 2rem;
   border-radius: 5rem;
+  box-shadow: var(--shadow);
 }
 
 .btn i {
@@ -119,6 +126,7 @@ header .navbar ul li a {
   color: #fff;
   font-size: 2rem;
   border-radius: 5rem;
+  box-shadow: var(--shadow);
 }
 header .navbar ul li a:hover {
   background: var(--yellow);
@@ -163,7 +171,7 @@ header .navbar ul li a:hover {
   color: #eee;
   padding: 1rem 0;
 }
-.home p span{
+.home p span {
   color: var(--yellow);
 }
 
@@ -234,6 +242,7 @@ header .navbar ul li a:hover {
   padding-left: 4rem;
   border-left: 0.2rem solid #fff;
   position: relative;
+  /* box-shadow: var(--shadow); */
 }
 .education .box-container .box span {
   font-size: 1.3rem;
