@@ -12,7 +12,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all 0.2s linear;
 }
 *::selection {
@@ -162,6 +162,9 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: #eee;
   padding: 1rem 0;
+}
+.home p span{
+  color: var(--yellow);
 }
 
 .about .row {
